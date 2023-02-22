@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 if (carrace.isChecked()) {
                     s += "Car raceing \n";
                 }
-                result.setText("Sports : "+s);
+                result.setText("Sports : \n"+s);
             }
         });
     }
